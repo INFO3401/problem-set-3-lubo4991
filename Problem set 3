@@ -1,0 +1,24 @@
+Lucas Bouchard
+9/11/18
+INFO Exploration 
+Problem set 3
+
+1. Use the command line to run asciify.py (included in the assignment repo). What does this script do? Include a screenshot of your results. 
+
+2. Install the Delorean Python package. What command did you use? Then, from the command line, launch Python. Use it to execute the following commands: 
+
+from delorean import Delorean
+EST = "US/Eastern"
+d = Delorean(timezone=EST)
+print(d)
+
+What prints to the command line?  
+
+
+3. Use the command line to download http://www.colorado.edu/. What command did you use? Make sure to include this file as part of your submission. 
+
+
+4. Search the downloaded file from #3 for the word "Colorado." What command did you use? How many lines did this find?
+
+
+5. Now, print the lines containing the word "Colorado" to a file to "search_results.html". What command did you use? Include this file as part of your submission. 
