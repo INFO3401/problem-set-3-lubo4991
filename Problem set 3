@@ -25,7 +25,7 @@ What prints to the command line?
 
 3. Use the command line to download http://www.colorado.edu/. What command did you use? Make sure to include this file as part of your submission. 
 
-- Command used: wget http://www.colorado.edu/
+- Command used: $ wget http://www.colorado.edu/
 - *File in repository 
 
 4. Search the downloaded file from #3 for the word "Colorado." What command did you use? How many lines did this find?
