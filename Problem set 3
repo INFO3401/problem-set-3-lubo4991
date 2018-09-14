@@ -1,5 +1,5 @@
 Lucas Bouchard
-9/11/18
+9/11/18 - 9/14/18
 INFO Exploration 
 Problem set 3
 
@@ -14,6 +14,7 @@ MONDAY
 2. Install the Delorean Python package. What command did you use? Then, from the command line, launch Python. Use it to execute the following commands: 
 
 - Command used: $ pip install delorean
+- Then $ cygstart ipython to launch my python windowquit
 
 from delorean import Delorean
 EST = "US/Eastern"
@@ -27,11 +28,12 @@ What prints to the command line?
 
 - Command used: $ wget http://www.colorado.edu/
 - *File in repository 
+- *I figured out how to get wget to work for cygwin. You just need to manually install it through cygwin setup. However, It produces a file rather than a chrome html document and its blank when I try placing it in an html doc? When I try to open the file it says that I need a windows application?
 
 4. Search the downloaded file from #3 for the word "Colorado." What command did you use? How many lines did this find?
 
 - Command used: $ cat index.html | grep -ni Colorado | wc -1
-- This found 81 lines or instances of "colorado"
+- This found 81 lines/instances of "colorado"
 
 5. Now, print the lines containing the word "Colorado" to a file to "search_results.html". What command did you use? Include this file as part of your submission. 
 
@@ -39,6 +41,7 @@ What prints to the command line?
 $ grep -i colorado index.html > search_results.html
 - *File located in repo
 
+ 
 WEDNESDAY 
 
 1. If I were to hypothetically collect and analyze CU's data system to determine if frequent rec usage resulted in a higher GPA I would look at the following:
