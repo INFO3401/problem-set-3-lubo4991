@@ -47,4 +47,81 @@ WEDNESDAY
 1. If I were to hypothetically collect and analyze CU's data system to determine if frequent rec usage resulted in a higher GPA I would look at the following:
 - The amount of times a student swipes their card to enter the rec facility per week/month/semester vs. their semester GPA or month by month GPA. 
 - You could also look at the time of day in which they go to the rec and frequency of rec usage vs. GPA.
-- It might also be interesting to check the amount of times someone checks out equipment, the type of programs they've inlisted in at the rec, the day of the week they are going, if they are renting a locker, and fall vs spring semester usage frequency.   
+- It might also be interesting to check the amount of times someone checks out equipment, the type of programs they've inlisted in at the rec, the day of the week they are going, if they are renting a locker, and fall vs spring semester usage frequency.  
+
+2. Using CoNVO, I would first define the framework of the problem
+
+-Who are the stakeholders?: CU students and faculty
+-What are they trying to achieve?: Understanding which datasets will be most supportive in determing whether regular gym usage leads to higher GPA.
+-What work will the project advance: Encourage student to use the gym more regularly to improve GPA
+-Who is the target audience?:CU students
+
+Next,
+
+The problems or challenges addressed directly by the data:
+
+Students are showing up to class less frequently, more distressed/tired, and aren't as academically successful than in recent years. This may be contributed to a decline in recreational gym usage. These datasets will help us determine frequency in which students use CU's rec center vs. their academic success.
+
+Next, 
+
+An actionable plan for how we will address the stakeholder's needs to achieve our goals:
+
+After collecting the appropriate datasets, we will use visual analytics to determine the correlation between these datasets. Machine learning could be used but is unnecessary for this study. Visual mock-ups/ argument sketch will also be necessary to correlate our results to the stakeholders so that it is easily understandable. Our stopping criteria will be determined once we reach an overwhelming consensus that regular gym usage results in higher GPA. However, addressing bias in this study will be crucial.
+
+Next, 
+
+The actions that will come from achieving our vision:
+
+Given that our hypothesis is proven correct and regular gym usage results in higher GPA, our stakeholers will develop a program to help encourage students to attend the gym more regularly. This could be done by posting bulletin boards across the campus that visualizes our consensus for all students to see. 
+
+However, once this is done it will be important to raise even more questions, address other sources of data, and further support our study. One of the issues that came to mind were the biases in the underlining question we are trying to answer. The question shouldn't entirely be focused on CU rec usage but rather physical activity in general. Many students particpate in physical activities outside the rec center. How could we address this? Surveys? look at the programs students participate in? I.e. Are they involve in intrumeral sports? Biking club? We would need to address this and figure out a way to collect this information. 
+
+
+
+FRIDAY
+
+In class today, you learned about a historical instance of data science in practice. Find three additional problems in history that were addressed using data. For each of these problems, describe the following: 
+
+https://www.altexsoft.com/blog/datascience/7-ways-data-science-is-reshaping-healthcare/ 
+
+Advancing pharmaceutical research to find cure for cancer and Ebola 
+
+1. What was the problem? 
+- The number of cancer patients keeps growing and researchers project that 1,735,350 new cancer cases will be diagnosed in the US in 2018.
+2. What data was available? 
+- biological samples from over 1,000 patients with 14 trillion data points contained in each sample.
+3. What methods were used? 
+-Machine learning 
+4. What did they find? 
+- The company responisible for this study managed to develop the drug BPM 31510, which detects and triggers the natural death of cells damaged by the disease. Allowing the removal of cancer cells from the body naturrally wihout extensive medication. 
+5. If you were to tackle the same problem today, what would you do differently and why? 
+- I don't think there are anyother more effiencent means of analysis that would have benefited this study. Machine learning was the best option in this case. 
+
+Using machine learning to eliminate perscription errors
+
+1. What was the problem? 
+- Hospitals are spending millions as a result of perscriptions errors. Not to mention the risk of lethal outcomes that could result in this type of problem.   
+2. What data was available? 
+- A machine learning algorithm looks at patients with the same symptoms, whom are treated with a defininte dose of drug A. A patient who is perscribed a different drug or has a change in dose will trigger a system alert, asking the doctor if they are sure about their perscription.
+3. What methods were used? 
+-Machine learning 
+4. What did they find? 
+- Although the startup that created this technology has only been around for a short while, this alrogithm has the potential to save hundreds of lives and cut hospital expenses. 
+5. If you were to tackle the same problem today, what would you do differently and why? 
+- Although I would use the same method for this problem, I would also like to look at why exactly perscipriton errors were occuring this regularly in the first place. What causes a doctor to "mistakenly" perscribe the wrong type of medication to a patient? Is it entirely self error or is the current system, for distributing medication, at fault?
+
+Using wearable technology to monitor and prevent health problems
+
+1. What was the problem? 
+- Before wearable health monitoring technology, people were unable to detect and track common conditions, like heart or respitory diseases. 
+2. What data was available? 
+- The amount of data that the human body generates DAILY is equal to two terabytes. 
+3. What methods were used? 
+- Wearable health monitoring technology and machine learning
+4. What did they find? 
+-  Well this technology has the capacity to monitor heart rate and breathing patterns, it can also detect the slighted instances in a patients helath that may indicate possible disorders. 600,000 people suffer from sudden heart stoppages in the US each year. Having the ability to acnticipate the problem could save thousands of lives.
+5. If you were to tackle the same problem today, what would you do differently and why? 
+- This is a more recent breakthrough in data science so I don't think there is much room, at the moment, other than continually improving the machine learning algorithm.  
+
+
+
